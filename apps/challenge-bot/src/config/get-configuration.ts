@@ -13,7 +13,7 @@ export const DEFAULT_CONFIGURATION: Configuration = {
 };
 
 export const getConfiguration = async (
-  context: Context<'issues'>
+  context: Context<'issue_comment'>
 ): Promise<Configuration> => {
   const validate = ajv.compile(configSchema);
 

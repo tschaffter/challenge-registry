@@ -22,7 +22,7 @@ default_events:
   # - deployment_status
   # - fork
   # - gollum
-  # - issue_comment
+  - issue_comment
   - issues
 # - label
 # - milestone
@@ -128,7 +128,6 @@ default_permissions:
 
 # The homepage of your GitHub App.
 url: https://github.com/Sage-Bionetworks/challenge-registry
-
 # A description of the GitHub App.
 # description: A description of my awesome app
 
